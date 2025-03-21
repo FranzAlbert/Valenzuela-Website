@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f1e8;
+            color: #5a3e2b;
+            text-align: center;
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+        }
+
+        header, footer {
+            background-color: #8d6e63;
+            color: white;
+            padding: 15px;
+            width: 100%; /* Ensure header and footer take full width */
+            box-sizing: border-box; /* Include padding in the width */
+        }
+
+        nav {
+            background-color: #a1887f;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #6d4c41;
+            padding: 5px;
+        }
+
+        .picture-container {
+            margin: 20px auto;
+            width: 220px; /* Adjust the width to fit the content */
+        }
+
+        .picture-frame {
+            width: 100%;
+            height: 250px; /* Increased height for image + description */
+            background-color: #ddd;
+            border: 3px solid #5a3e2b;
+            display: flex;
+            flex-direction: column; /* Stack image and description vertically */
+            justify-content: space-between;
+            padding: 10px;
+            margin-bottom: 20px; /* Add space between containers */
+        }
+
+        .picture-frame img {
+            width: 100%;
+            height: 150px; /* Adjusted height for image */
+            object-fit: cover;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #5a3e2b;
+            background-color: #f1f1f1;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Family</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="family.html">Family</a>
+    <a href="specialization.html">Specialization</a>
+    <a href="school-life.html">School Life</a>
+</nav>
+
+<p><h4> This is a short compilation of my Family, I will only put the main family members, my other family members are from my Step Dad</h4>
+<!-- Stacked vertically -->
+<div class="picture-container">
+    <div class="picture-frame">
+        <img src="mom.jpg" alt="Family Member 1">
+        <div class="description">This is My mom Jeraldine D. Serna, she is 35 years old, and tends to have a nice humor compared to us siblings</div>
+    </div>
+</div>
+
+<div class="picture-container">
+    <div class="picture-frame">
+        <img src="jake.jpg" alt="Family Member 2">
+        <div class="description">This is My Little Brother Jake Kennedy Serna, he is 7 Years old, he tends to have a very evasive personality.</div>
+    </div>
+</div>
+
+<div class="picture-container">
+    <div class="picture-frame">
+        <img src="family.jpg" alt="Family Member 3">
+        <div class="description">This is a picture of us and my niece Briannah Judith Magturo</div>
+    </div>
+</div>
+
+<p>My Family is very supportive towards each other, help each other, and will care for each other, My Mom always says "No matter the situation, Family is always first."</p>
+
+<footer>
+    <p>Franz Albert D. Valenzuela 10-SPA Shakespeare 2025</p>
+</footer>
+
+</body>
+</html>
